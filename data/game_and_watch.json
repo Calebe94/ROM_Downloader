@@ -1,0 +1,933 @@
+{
+    "datafile": {
+        "header": {
+            "emu_name": "Game and Watch",
+            "emu_description": "Game and Watch",
+            "emu_category": "Nintendo, Handheld",
+            "emu_version": "03122019",
+            "emu_date": "10/13/2017",
+            "emu_author": "Zach Morris",
+            "emu_visibility": "visible",
+            "emu_homepage": "https://libretro.com",
+            "emu_baseurl": "http://buildbot.libretro.com/assets/cores/Handheld%20Electronic%20Game/",
+            "emu_launcher": "retroplayer",
+            "emu_default_addon": "none",
+            "emu_ext_launch_cmd": "none",
+            "emu_downloadpath": "default",
+            "emu_postdlaction": "unzip_rom",
+            "emu_comment": "Game and Watch is a line of handheld electronic games produced by Nintendo from 1980 to 1991. Created by game designer Gunpei Yokoi, each Game and Watch features a single game to be played on an LCD screen in addition to a clock, an alarm, or both. It was the earliest Nintendo product to garner major success.  There were 59 different Game and Watch games produced for sale and one that was only available as a contest prize, making 60 in all. The prize game was given to winners of Nintendo's F-1 Grand Prix tournament, a yellow-cased version of Super Mario Bros. that came in a plastic box modeled after the Disk-kun character Nintendo used to advertise their Famicom Disk System. As only 10,000 units were produced and it was never available for retail sale, the yellow version is considered rare.",
+            "emu_thumb": "RgC1TBR.jpg",
+            "emu_banner": "HNxsnau.png",
+            "emu_fanart": "MZKT4xC.jpg",
+            "emu_logo": "2Dd6Mk6.png",
+            "emu_trailer": "Ss3gZ6yV79c"
+        },
+        "game": [
+            {
+                "name": "Armor Battle (Mattel Electronics)",
+                "description": "Armor Battle (Mattel Electronics)",
+                "rom": {
+                    "name": "Armor%20Battle%20%28Mattel%20Electronics%29.zip",
+                    "size": "988160"
+                },
+                "title_clean": "Armor Battle",
+                "boxart1": "lo8PV6M.png",
+                "snapshot1": "GUaibrE.png"
+            },
+            {
+                "name": "Banana (VTech, Time & Fun)",
+                "description": "Banana (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Banana%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "498688"
+                },
+                "title_clean": "Banana",
+                "boxart1": "r8dAeVa.png",
+                "snapshot1": "TjxEUvA.png"
+            },
+            {
+                "name": "Baseball (VTech, Explorer Time & Fun)",
+                "description": "Baseball (VTech, Explorer Time & Fun)",
+                "rom": {
+                    "name": "Baseball%20%28VTech%2C%20Explorer%20Time%20%26%20Fun%29.zip",
+                    "size": "893952"
+                },
+                "title_clean": "Baseball",
+                "genre": "Sports",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "36931",
+                "boxart1": "2asaNnb.png",
+                "snapshot1": "6Z4OQja.png"
+            },
+            {
+                "name": "Bomb Fight (VTech, Mini Time & Fun)",
+                "description": "Bomb Fight (VTech, Mini Time & Fun)",
+                "rom": {
+                    "name": "Bomb%20Fight%20%28VTech%2C%20Mini%20Time%20%26%20Fun%29.zip",
+                    "size": "1083392"
+                },
+                "title_clean": "Bomb Fight",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "36928",
+                "boxart1": "gVzbYBr.png",
+                "snapshot1": "aOpaT7w.png"
+            },
+            {
+                "name": "Caccia al Ladro (VTech, Mini Time & Fun)",
+                "description": "Caccia al Ladro (VTech, Mini Time & Fun)",
+                "rom": {
+                    "name": "Caccia%20al%20Ladro%20%28VTech%2C%20Mini%20Time%20%26%20Fun%29.zip",
+                    "size": "653312"
+                },
+                "title_clean": "Caccia al Ladro",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37193",
+                "boxart1": "PeX0AE0.png",
+                "snapshot1": "Ja6j82n.png"
+            },
+            {
+                "name": "Cessate il Fuoco (VTech, Mini Time & Fun)",
+                "description": "Cessate il Fuoco (VTech, Mini Time & Fun)",
+                "rom": {
+                    "name": "Cessate%20il%20Fuoco%20%28VTech%2C%20Mini%20Time%20%26%20Fun%29.zip",
+                    "size": "1071104"
+                },
+                "title_clean": "Cessate il Fuoco",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37194",
+                "boxart1": "qe0mXCQ.png",
+                "snapshot1": "nuRaqr1.png"
+            },
+            {
+                "name": "Chicky Woggy (VTech, Arcade Time & Fun)",
+                "description": "Chicky Woggy (VTech, Arcade Time & Fun)",
+                "rom": {
+                    "name": "Chicky%20Woggy%20%28VTech%2C%20Arcade%20Time%20%26%20Fun%29.zip",
+                    "size": "995328"
+                },
+                "title_clean": "Chicky Woggy",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37195",
+                "boxart1": "c0SdJcQ.png",
+                "snapshot1": "RxZ9PW5.png"
+            },
+            {
+                "name": "Chicky Woggy (VTech, Electronic Tini-Arcade)",
+                "description": "Chicky Woggy (VTech, Electronic Tini-Arcade)",
+                "rom": {
+                    "name": "Chicky%20Woggy%20%28VTech%2C%20Electronic%20Tini-Arcade%29.zip",
+                    "size": "985088"
+                },
+                "title_clean": "Chicky Woggy",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37196",
+                "boxart1": "D6niWrv.png",
+                "snapshot1": "R961EeB.png"
+            },
+            {
+                "name": "Condor (VTech, Time & Fun)",
+                "description": "Condor (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Condor%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "543744"
+                },
+                "title_clean": "Condor",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37197",
+                "boxart1": "OkgvzNq.png",
+                "snapshot1": "FT3Px6o.png"
+            },
+            {
+                "name": "Crazy Chewy (VTech, Electronic Tini-Arcade)",
+                "description": "Crazy Chewy (VTech, Electronic Tini-Arcade)",
+                "rom": {
+                    "name": "Crazy%20Chewy%20%28VTech%2C%20Electronic%20Tini-Arcade%29.zip",
+                    "size": "1055744"
+                },
+                "title_clean": "Crazy Chewy",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37198",
+                "boxart1": "Ee443dy.png",
+                "snapshot1": "uv0Yzsb.png"
+            },
+            {
+                "name": "Defendo (VTech, Explorer Time & Fun)",
+                "description": "Defendo (VTech, Explorer Time & Fun)",
+                "rom": {
+                    "name": "Defendo%20%28VTech%2C%20Explorer%20Time%20%26%20Fun%29.zip",
+                    "size": "629760"
+                },
+                "title_clean": "Defendo",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37199",
+                "boxart1": "N9eKaaB.png",
+                "snapshot1": "9fq4mYO.png"
+            },
+            {
+                "name": "Donkey Angler (Gakken LCD Card Game)",
+                "description": "Donkey Angler (Gakken LCD Card Game)",
+                "rom": {
+                    "name": "Donkey%20Angler%20%28Gakken%20LCD%20Card%20Game%29.zip",
+                    "size": "352256"
+                },
+                "title_clean": "Donkey Angler",
+                "boxart1": "ZFiIcGE.jpg"
+            },
+            {
+                "name": "Donkey Kong (Coleco)",
+                "description": "Donkey Kong (Coleco)",
+                "rom": {
+                    "name": "Donkey%20Kong%20%28Coleco%29.zip",
+                    "size": "955392"
+                },
+                "title_clean": "Donkey Kong",
+                "plot": "Released in the arcades in 1981, Donkey Kong was not only Nintendo's first real smash hit for the company, but marked the introduction for two of their most popular mascots: Mario (originally \"Jumpman\") and Donkey Kong.Donkey Kong is a platform-action game that has Mario scale four different industrial themed levels (construction zone, cement factory, an elevator-themed level, and removing rivets from girders) in an attempt to save the damsel in distress, Pauline, from the big ape before the timer runs out. Once the rivets are removed from the final level, Donkey Kong falls, and the two lovers are reunited. From there, the levels start over at a higher difficulty.Along the way, Mario must dodge a constant stream of barrels, \"living\" fireballs, and spring-weights. Although not as powerful as in other future games, Mario can find a hammer which allows him to destroy the barrels and fireballs for a limited amount of time. Additionally, Mario can also find Pauline's hat, purse and umbrella for additional bonus points.Donkey Kong is also notable for being one of the first complete narratives in video game form, told through simplistic cut scenes that advance the story. It should also be noted that in many conversions of the original coin-op game for early 1980's consoles and computer-systems, Donkey Kong only used two or three of the original levels, with the cement factory most often omitted.",
+                "year": "1982",
+                "genre": "Action",
+                "studio": "Coleco Industries",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/donkey-kong",
+                "boxart1": "mG8ftLz.png",
+                "snapshot1": "H6UrG49.png"
+            },
+            {
+                "name": "Donkey Kong (Nintendo, Multi Screen)",
+                "description": "Donkey Kong (Nintendo, Multi Screen)",
+                "rom": {
+                    "name": "Donkey%20Kong%20%28Nintendo%2C%20Multi%20Screen%29.zip",
+                    "size": "610304"
+                },
+                "title_clean": "Donkey Kong",
+                "plot": "Donkey Kong is a dual-screen Game & Watch version of the classic arcade game, which was released June 3, 1982 and has the model number: DK-52",
+                "releasedate": "06/03/1982",
+                "year": "1982",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37200",
+                "boxart1": "6ER62OR.png",
+                "snapshot1": "Rd1uuNR.png"
+            },
+            {
+                "name": "Donkey Kong Circus (Nintendo, Panorama Screen)",
+                "description": "Donkey Kong Circus (Nintendo, Panorama Screen)",
+                "rom": {
+                    "name": "Donkey%20Kong%20Circus%20%28Nintendo%2C%20Panorama%20Screen%29.zip",
+                    "size": "1484800"
+                },
+                "title_clean": "Donkey Kong Circus",
+                "plot": "Donkey Kong Circus is in some ways similar to Mickey Mouse (DC-95). Here it is Donkey Kong balancing on a barrel while juggling pineapples. Move Donkey Kong left and right to catch the pineapples, but beware of the falling fireballs. Mario stands watching his juggling performance.",
+                "releasedate": "09/06/1984",
+                "year": "1984",
+                "genre": "Action",
+                "studio": "Nintendo of America Inc.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "33453",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-panorama-screen-donkey-kong-circus",
+                "boxart1": "rq9ONk0.png",
+                "snapshot1": "U0i2DAj.png"
+            },
+            {
+                "name": "Donkey Kong II (Nintendo, Multi Screen)",
+                "description": "Donkey Kong II (Nintendo, Multi Screen)",
+                "rom": {
+                    "name": "Donkey%20Kong%20II%20%28Nintendo%2C%20Multi%20Screen%29.zip",
+                    "size": "741376"
+                },
+                "title_clean": "Donkey Kong II",
+                "plot": "Donkey Kong II is the sequel to Donkey Kong. This time it is Donkey Kong who is captured by Mario. Donkey Kong Jr. wants to rescue his Dad, so he braves snapjaws, sparks and birds using the key he collects to unlock the locks. After unlocking all four locks Papa is freed and the game starts from the beginning.",
+                "releasedate": "12/01/1983",
+                "year": "1983",
+                "genre": "Action",
+                "studio": "Nintendo Co.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "videoid": "bfXT6BpDOzU",
+                "thegamesdb_id": "33452",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-multi-screen-donkey-kong-ii",
+                "boxart1": "LEWOMoY.png",
+                "snapshot1": "aXcKSBO.png"
+            },
+            {
+                "name": "Donkey Kong Jr. (Coleco)",
+                "description": "Donkey Kong Jr. (Coleco)",
+                "rom": {
+                    "name": "Donkey%20Kong%20Jr.%20%28Coleco%29.zip",
+                    "size": "2449408"
+                },
+                "title_clean": "Donkey Kong Jr.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "36929",
+                "boxart1": "7uSWA1S.png",
+                "snapshot1": "TariJpV.png"
+            },
+            {
+                "name": "Donkey Kong Jr. (Nintendo Panorama Screen)",
+                "description": "Donkey Kong Jr. (Nintendo Panorama Screen)",
+                "rom": {
+                    "name": "Donkey%20Kong%20Jr.%20%28Nintendo%20Panorama%20Screen%29.zip",
+                    "size": "2450432"
+                },
+                "title_clean": "Donkey Kong Jr.",
+                "plot": "Mario has again locked up Donkey Kong, this time in a cage. Junior is off to help his papa. To do this he has to evade snapjaws and attacking birds. He can knock down a bird or snapjaw by dropping a fruit on them. Now to the difficult part. Once you reach the edge next to the cage, you have to time your jump perfectly to grab the swinging key and unlock part of the cage. After 4 sections are unlocked Donkey Kong is freed.",
+                "releasedate": "10/26/1982",
+                "year": "1982",
+                "genre": "Action",
+                "studio": "Nintendo Co.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "33454",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-panorama-screen-donkey-kong-jr",
+                "boxart1": "Uydjh8Z.jpg"
+            },
+            {
+                "name": "Donkey Kong Jr. (Nintendo, Table Top)",
+                "description": "Donkey Kong Jr. (Nintendo, Table Top)",
+                "rom": {
+                    "name": "Donkey%20Kong%20Jr.%20%28Nintendo%2C%20Table%20Top%29.zip",
+                    "size": "2351104"
+                },
+                "title_clean": "Donkey Kong Jr.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37201",
+                "boxart1": "w3NsWzx.png",
+                "snapshot1": "OdQyhps.png"
+            },
+            {
+                "name": "Dungeons & Dragons Computer Fantasy Game (Mattel Electronics, Arcade Action Series)",
+                "description": "Dungeons & Dragons Computer Fantasy Game (Mattel Electronics, Arcade Action Series)",
+                "rom": {
+                    "name": "Dungeons%20%26%20Dragons%20Computer%20Fantasy%20Game%20%28Mattel%20Electronics%2C%20Arcade%20Action%20Series%29.zip",
+                    "size": "921600"
+                },
+                "title_clean": "Dungeons & Dragons Computer Fantasy Game",
+                "releasedate": "05/01/1981",
+                "year": "1981",
+                "genre": "RPG",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "36930",
+                "boxart1": "NKVGOAS.png",
+                "snapshot1": "N5Vxosg.png"
+            },
+            {
+                "name": "Egg (Nintendo, Wide Screen)",
+                "description": "Egg (Nintendo, Wide Screen)",
+                "rom": {
+                    "name": "Egg%20%28Nintendo%2C%20Wide%20Screen%29.zip",
+                    "size": "374784"
+                },
+                "title_clean": "Egg",
+                "plot": "Egg is nearly the same as Mickey Mouse. Instead of Mickey Mouse you have to move a Wolf who has a hat in his hands. Instead of Minnie there's a cock looking out of the window. Another difference to Mickey Mouse is that Egg is a bit more difficult to play, but nobody knows why.",
+                "releasedate": "10/16/1981",
+                "year": "1981",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "33455",
+                "boxart1": "3T4gPgX.png",
+                "snapshot1": "3mkIZnK.png"
+            },
+            {
+                "name": "Engine Room (VTech, Explorer Time & Fun)",
+                "description": "Engine Room (VTech, Explorer Time & Fun)",
+                "rom": {
+                    "name": "Engine%20Room%20%28VTech%2C%20Explorer%20Time%20%26%20Fun%29.zip",
+                    "size": "905216"
+                },
+                "title_clean": "Engine Room",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37203",
+                "boxart1": "2SL7ej3.png",
+                "snapshot1": "evDLHkq.png"
+            },
+            {
+                "name": "Escape (VTech, Time & Fun)",
+                "description": "Escape (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Escape%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "829440"
+                },
+                "title_clean": "Escape",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37204",
+                "boxart1": "IygRIAk.png",
+                "snapshot1": "mmRMiIG.png"
+            },
+            {
+                "name": "Explorers of Space (Elektronika)",
+                "description": "Explorers of Space (Elektronika)",
+                "rom": {
+                    "name": "Explorers%20of%20Space%20%28Elektronika%29.zip",
+                    "size": "347136"
+                },
+                "title_clean": "Explorers of Space",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37205",
+                "boxart1": "wAPVleV.png",
+                "snapshot1": "Q0rXZXk.png"
+            },
+            {
+                "name": "Fowling (Elektronika)",
+                "description": "Fowling (Elektronika)",
+                "rom": {
+                    "name": "Fowling%20%28Elektronika%29.zip",
+                    "size": "337920"
+                },
+                "title_clean": "Fowling",
+                "plot": "Russian variation of Egg.",
+                "releasedate": "01/01/1989",
+                "year": "1989",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37228",
+                "boxart1": "hBdnFQM.png",
+                "snapshot1": "rRyRIAL.png"
+            },
+            {
+                "name": "Frog Boaster (Elektronika)",
+                "description": "Frog Boaster (Elektronika)",
+                "rom": {
+                    "name": "Frog%20Boaster%20%28Elektronika%29.zip",
+                    "size": "337920"
+                },
+                "title_clean": "Frog Boaster",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37229",
+                "boxart1": "ZuvefFF.png",
+                "snapshot1": "P7n0ygj.png"
+            },
+            {
+                "name": "Galaxy II (Epoch)",
+                "description": "Galaxy II (Epoch)",
+                "rom": {
+                    "name": "Galaxy%20II%20%28Epoch%29.zip",
+                    "size": "2027520"
+                },
+                "title_clean": "Galaxy II",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37206",
+                "boxart1": "hP2hWHb.png",
+                "snapshot1": "VqVzxuC.png"
+            },
+            {
+                "name": "Grab Man (unknown manufacturer, Game & Time)",
+                "description": "Grab Man (unknown manufacturer, Game & Time)",
+                "rom": {
+                    "name": "Grab%20Man%20%28unknown%20manufacturer%2C%20Game%20%26%20Time%29.zip",
+                    "size": "756736"
+                },
+                "title_clean": "Grab Man",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37207",
+                "boxart1": "etlQLlo.png",
+                "snapshot1": "85ahs6a.png"
+            },
+            {
+                "name": "Hippo Teeth (VTech, Mini Time & Fun)",
+                "description": "Hippo Teeth (VTech, Mini Time & Fun)",
+                "rom": {
+                    "name": "Hippo%20Teeth%20%28VTech%2C%20Mini%20Time%20%26%20Fun%29.zip",
+                    "size": "727040"
+                },
+                "title_clean": "Hippo Teeth",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37188",
+                "boxart1": "wJZ14Cv.png",
+                "snapshot1": "Qn6ZM7o.png"
+            },
+            {
+                "name": "Hippo Teeth (VTech, Sporty Time & Fun)",
+                "description": "Hippo Teeth (VTech, Sporty Time & Fun)",
+                "rom": {
+                    "name": "Hippo%20Teeth%20%28VTech%2C%20Sporty%20Time%20%26%20Fun%29.zip",
+                    "size": "691200"
+                },
+                "title_clean": "Hippo Teeth",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37217",
+                "boxart1": "efYjXqC.png",
+                "snapshot1": "nolgMAJ.png"
+            },
+            {
+                "name": "Hot Line (VTech, Mini Time & Fun)",
+                "description": "Hot Line (VTech, Mini Time & Fun)",
+                "rom": {
+                    "name": "Hot%20Line%20%28VTech%2C%20Mini%20Time%20%26%20Fun%29.zip",
+                    "size": "939008"
+                },
+                "title_clean": "Hot Line",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37216",
+                "boxart1": "ckSrsnU.png",
+                "snapshot1": "iVyil60.png"
+            },
+            {
+                "name": "Hot Line (VTech, Sporty Time & Fun)",
+                "description": "Hot Line (VTech, Sporty Time & Fun)",
+                "rom": {
+                    "name": "Hot%20Line%20%28VTech%2C%20Sporty%20Time%20%26%20Fun%29.zip",
+                    "size": "865280"
+                },
+                "title_clean": "Hot Line",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37214",
+                "boxart1": "4GqLJY4.png",
+                "snapshot1": "TcF6DOa.png"
+            },
+            {
+                "name": "Las Vegas (Bandai, LCD Game Digital)",
+                "description": "Las Vegas (Bandai, LCD Game Digital)",
+                "rom": {
+                    "name": "Las%20Vegas%20%28Bandai%2C%20LCD%20Game%20Digital%29.zip",
+                    "size": "344064"
+                },
+                "title_clean": "Las Vegas",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37187",
+                "boxart1": "JKP4WRd.png",
+                "snapshot1": "KHCmlOd.png"
+            },
+            {
+                "name": "Lifeboat (Nintendo, Multi Screen)",
+                "description": "Lifeboat (Nintendo, Multi Screen)",
+                "rom": {
+                    "name": "Lifeboat%20%28Nintendo%2C%20Multi%20Screen%29.zip",
+                    "size": "656384"
+                },
+                "title_clean": "Lifeboat",
+                "plot": "In Lifeboat a fire breaks out on a luxury passenger liner. Your mission is to try to rescue the passengers abandoning ship by placing a lifeboat below them. The lifeboat can hold up to 4 people, so you need to offload passengers all the time by pulling the lifeboat towards the shore so the passengers can get off. Can you save them?",
+                "releasedate": "11/25/1983",
+                "year": "1983",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "33456",
+                "boxart1": "2n8KPvO.png",
+                "snapshot1": "vL0eg1H.png"
+            },
+            {
+                "name": "Mario Bros. (Nintendo, Multi Screen)",
+                "description": "Mario Bros. (Nintendo, Multi Screen)",
+                "rom": {
+                    "name": "Mario%20Bros.%20%28Nintendo%2C%20Multi%20Screen%29.zip",
+                    "size": "655360"
+                },
+                "title_clean": "Mario Bros.",
+                "plot": "In Mario Bros. you actually control 2 characters, Mario and Luigi. They are working in a bottling plant, loading cases on a conveyor belt and onto trucks.",
+                "releasedate": "03/14/1983",
+                "year": "1983",
+                "genre": "Action",
+                "studio": "Nintendo Co.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "33457",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-multi-screen-mario-bros",
+                "boxart1": "WQnvZqD.png",
+                "boxart2": "rxjzGtf.jpg",
+                "boxart3": "bIM48tS.jpg",
+                "boxart4": "55oQX0p.jpg",
+                "snapshot1": "9Vpgdkr.png",
+                "snapshot2": "eThccJl.jpg",
+                "snapshot3": "PMGqfKy.jpg",
+                "snapshot4": "aTsxc5z.jpg",
+                "fanart1": "MmT6HYv.jpg"
+            },
+            {
+                "name": "Mario's Bombs Away (Nintendo, Panorama Screen)",
+                "description": "Mario's Bombs Away (Nintendo, Panorama Screen)",
+                "rom": {
+                    "name": "Mario%27s%20Bombs%20Away%20%28Nintendo%2C%20Panorama%20Screen%29.zip",
+                    "size": "1804288"
+                },
+                "title_clean": "Mario's Bombs Away",
+                "plot": "Game & Watch Panorama Screen: Mario's Bombs Away is the fourth game in the sixth series of Game & Watch games published by Nintendo, also known as the Panorama Screen Series. With it's tilt-able screen, this series managed to offer the same experience as the Table Top Series, but on a much more portable format and for a more affordable price. Of the six titles in the series, three were re-editions of previous Table Top Games. Mario's Bombs Away isn't one of the re-editions of the Table Top Versions which were released before, but a new game in the G&W franchise. The player controls Mario transporting bombs from one side of the screen to the other. Whilst moving, enemies in the trees above try to light the fuse. To avoid the possible explosion, one must press the up/down button, allowing you to lower the bomb to hip level, dodging the ambush from above. The ground you traverse on is riddled with multiple oil puddles and carelessly thrown away cigarette ends from your comrades. As in Turtle Bridge the person collecting the bombs from Mario does so on a irregular basis.",
+                "genre": "Action",
+                "studio": "Nintendo Co.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37213",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-panorama-screen-marios-bombs-away",
+                "boxart1": "hefEupg.png",
+                "snapshot1": "vOQlovc.png"
+            },
+            {
+                "name": "Mickey Mouse (Nintendo, Panorama Screen)",
+                "description": "Mickey Mouse (Nintendo, Panorama Screen)",
+                "rom": {
+                    "name": "Mickey%20Mouse%20%28Nintendo%2C%20Panorama%20Screen%29.zip",
+                    "size": "1486848"
+                },
+                "title_clean": "Mickey Mouse",
+                "plot": "Game & Watch Panorama Screen: Mickey Mouse is the fifth game in the sixth series of Game & Watch games published by Nintendo, also known as the Panorama Screen Series. With it's tilt-able screen, this series managed to offer the same experience as the Table Top Series, but on a much more portable format and for a more affordable price. Of the six titles in the series, three were re-editions of previous Table Top Games. Unpublished in Japan.Mickey Mouse isn't one of the re-editions of the Table Top Versions which were released before, despite Mickey's appearance in some of the other G&W series games. Mickey Mouse can be seen as an alternate version of Donkey Kong Circus. Instead of controlling Donkey Kong, the player controls Mickey Mouse and Donald Duck is standing on the side instead of Mario. Compared to the mockery Mario displayed in Donkey Kong Circus, Donald isn't mocking Mickey. On the contrary, he jumps as if he was panicked and worried about Mickey's well-being. It's concept and gameplay are the same as Donkey Kong CircusThe product code of this game MK-95 and the sixth game in this series Donkey Kong Circus, codenamed MK-96, seemed to have their  code names switched, since MK (= Mickey Mouse) and DC (= Donkey Kong Circus), but this isn't the case.",
+                "genre": "Action",
+                "studio": "Nintendo of America Inc.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37218",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-panorama-screen-mickey-mouse",
+                "boxart1": "HqS2o3e.png",
+                "snapshot1": "qc9jGGM.png"
+            },
+            {
+                "name": "Mickey Mouse (Nintendo, Wide Screen)",
+                "description": "Mickey Mouse (Nintendo, Wide Screen)",
+                "rom": {
+                    "name": "Mickey%20Mouse%20%28Nintendo%2C%20Wide%20Screen%29.zip",
+                    "size": "421888"
+                },
+                "title_clean": "Mickey Mouse",
+                "plot": "There are four hens. In each corner of the game one hen is sitting on its shelf. They're laying eggs all the time. The eggs are rolling down the shelves and you have to move Mickey Mouse who has a basket in his arms, so that the eggs fall in Mickey's basket.",
+                "releasedate": "10/09/1981",
+                "year": "1981",
+                "genre": "Action",
+                "studio": "Nintendo Co.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "33458",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-wide-screen-mickey-mouse",
+                "boxart1": "aGPvt44.png",
+                "snapshot1": "LCFkag5.png"
+            },
+            {
+                "name": "Monkey (VTech, Time & Fun)",
+                "description": "Monkey (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Monkey%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "624640"
+                },
+                "title_clean": "Monkey",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37219",
+                "boxart1": "9Ex5QAj.png",
+                "snapshot1": "CcBz7HE.png"
+            },
+            {
+                "name": "Monkey Jump (VTech, Arcade Time & Fun)",
+                "description": "Monkey Jump (VTech, Arcade Time & Fun)",
+                "rom": {
+                    "name": "Monkey%20Jump%20%28VTech%2C%20Arcade%20Time%20%26%20Fun%29.zip",
+                    "size": "1554432"
+                },
+                "title_clean": "Monkey Jump",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37220",
+                "boxart1": "y7M7Pau.png",
+                "snapshot1": "VdntOPn.png"
+            },
+            {
+                "name": "Motor Cross (Queentex)",
+                "description": "Motor Cross (Queentex)",
+                "rom": {
+                    "name": "Motor%20Cross%20%28Queentex%29.zip",
+                    "size": "1727488"
+                },
+                "title_clean": "Motor Cross",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37221",
+                "boxart1": "rETLhOg.png",
+                "snapshot1": "FI6ljqO.png"
+            },
+            {
+                "name": "Pac Man (Tomytronic)",
+                "description": "Pac Man (Tomytronic)",
+                "rom": {
+                    "name": "Pac%20Man%20%28Tomytronic%29.zip",
+                    "size": "781312"
+                },
+                "title_clean": "Pac Man",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37223",
+                "boxart1": "eBpg1YS.png",
+                "snapshot1": "KbavRjw.png"
+            },
+            {
+                "name": "Pancake (VTech, Time & Fun)",
+                "description": "Pancake (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Pancake%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "464896"
+                },
+                "title_clean": "Pancake",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37224",
+                "boxart1": "TP2mu10.png",
+                "snapshot1": "KXNQp4D.png"
+            },
+            {
+                "name": "Parachute (Nintendo, Wide Screen)",
+                "description": "Parachute (Nintendo, Wide Screen)",
+                "rom": {
+                    "name": "Parachute%20%28Nintendo%2C%20Wide%20Screen%29.zip",
+                    "size": "376832"
+                },
+                "title_clean": "Parachute",
+                "plot": "You have to move a boat left and right, so that the skydivers, which jump out of a helicopter with their parachutes, land in the boat. If you miss a skydiver, he'll be eaten by a shark!",
+                "releasedate": "06/19/1981",
+                "year": "1981",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "videoid": "8FZSmLgjxNk",
+                "thegamesdb_id": "33459",
+                "boxart1": "iBS59IW.png",
+                "snapshot1": "xTi0Xma.png"
+            },
+            {
+                "name": "Penguin Land (Bandai LSI Game Double Play)",
+                "description": "Penguin Land (Bandai LSI Game Double Play)",
+                "rom": {
+                    "name": "Penguin%20Land%20%28Bandai%20LSI%20Game%20Double%20Play%29.zip",
+                    "size": "1403904"
+                },
+                "title_clean": "Penguin Land",
+                "boxart1": "SOzFKzc.jpg"
+            },
+            {
+                "name": "Pirate (VTech, Time & Fun)",
+                "description": "Pirate (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Pirate%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "611328"
+                },
+                "title_clean": "Pirate",
+                "plot": "This may be one of those sites that really hits the nostalgia bone in a tasteful way. From what I can tell a Polish website by the name of \"Hipopolam\" has taken many of the Game & Watch style handhelds and presented them in a way that you can really appreciate artwork and design of the device itself. It's kinda dumb but kinda great at the same time, I thoroughly recommend anyone have a browse who wants to jump back a few decades in LCD technology.",
+                "releasedate": "01/01/1983",
+                "year": "1983",
+                "genre": "Action",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37186",
+                "boxart1": "hRQLwuz.png",
+                "snapshot1": "rdUvhXC.png"
+            },
+            {
+                "name": "Roller Coaster (VTech, Explorer Time & Fun)",
+                "description": "Roller Coaster (VTech, Explorer Time & Fun)",
+                "rom": {
+                    "name": "Roller%20Coaster%20%28VTech%2C%20Explorer%20Time%20%26%20Fun%29.zip",
+                    "size": "456704"
+                },
+                "title_clean": "Roller Coaster",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37225",
+                "boxart1": "cnz3o8m.png",
+                "snapshot1": "AOGMKsJ.png"
+            },
+            {
+                "name": "Safari (VTech, Time & Fun)",
+                "description": "Safari (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Safari%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "789504"
+                },
+                "title_clean": "Safari",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37226",
+                "boxart1": "OE9ppYp.png",
+                "snapshot1": "6R6a1bT.png"
+            },
+            {
+                "name": "Sleep Walker (VTech, Time & Fun)",
+                "description": "Sleep Walker (VTech, Time & Fun)",
+                "rom": {
+                    "name": "Sleep%20Walker%20%28VTech%2C%20Time%20%26%20Fun%29.zip",
+                    "size": "501760"
+                },
+                "title_clean": "Sleep Walker",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37227",
+                "boxart1": "0580xwA.png",
+                "snapshot1": "gUpPiDy.png"
+            },
+            {
+                "name": "Snoopy (Nintendo, Panorama Screen)",
+                "description": "Snoopy (Nintendo, Panorama Screen)",
+                "rom": {
+                    "name": "Snoopy%20%28Nintendo%2C%20Panorama%20Screen%29.zip",
+                    "size": "2304000"
+                },
+                "title_clean": "Snoopy",
+                "plot": "Snoopy is the same as the Tabletop version (SM-73). You operate Snoopy left and right to strike down the notes that come from Schroeders piano with his hammer, so Woodstock may sleep in peace. Watch out that you don't jump too far left or right or you will fall down.",
+                "releasedate": "08/30/1983",
+                "year": "1983",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "videoid": "7Jezpy1wSoM",
+                "thegamesdb_id": "33460",
+                "boxart1": "wSEDDie.png",
+                "snapshot1": "stjytvF.png",
+                "clearlogo1": "ADhcREL.png"
+            },
+            {
+                "name": "Snoopy (Nintendo, Table Top)",
+                "description": "Snoopy (Nintendo, Table Top)",
+                "rom": {
+                    "name": "Snoopy%20%28Nintendo%2C%20Table%20Top%29.zip",
+                    "size": "2201600"
+                },
+                "title_clean": "Snoopy",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37212",
+                "boxart1": "LbeLYDh.png",
+                "snapshot1": "qPVdw2p.png"
+            },
+            {
+                "name": "Snoopy Tennis (Nintendo, Wide Screen)",
+                "description": "Snoopy Tennis (Nintendo, Wide Screen)",
+                "rom": {
+                    "name": "Snoopy%20Tennis%20%28Nintendo%2C%20Wide%20Screen%29.zip",
+                    "size": "556032"
+                },
+                "title_clean": "Snoopy Tennis",
+                "plot": "You are Snoopy and you're playing tennis with you friends Charlie Brown and Lucy. Charlie throws the balls against you and you have to throw them back by standing in the right position and hitting the ball. If you hit the ball, it will be thrown back and will fly over Charlie. Sometimes there's Lucy, who hits back the ball, so they come to you again and you have to hit them a second or a third time. If Lucy doesn't appear the tennis ball will fly out of the screen.",
+                "releasedate": "04/28/1982",
+                "year": "1982",
+                "genre": "Sports",
+                "studio": "Nintendo Co.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "videoid": "TBHm5aper6k",
+                "thegamesdb_id": "33461",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-wide-screen-snoopy-tennis",
+                "boxart1": "sVGlPXh.png",
+                "snapshot1": "8JIjtUP.png"
+            },
+            {
+                "name": "Sub Chase (Mattel Electronics)",
+                "description": "Sub Chase (Mattel Electronics)",
+                "rom": {
+                    "name": "Sub%20Chase%20%28Mattel%20Electronics%29.zip",
+                    "size": "608256"
+                },
+                "title_clean": "Sub Chase",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37211",
+                "boxart1": "OvkaRcy.png",
+                "snapshot1": "5KnvzMM.png"
+            },
+            {
+                "name": "Tennis Menace (VTech, Sporty Time & Fun)",
+                "description": "Tennis Menace (VTech, Sporty Time & Fun)",
+                "rom": {
+                    "name": "Tennis%20Menace%20%28VTech%2C%20Sporty%20Time%20%26%20Fun%29.zip",
+                    "size": "803840"
+                },
+                "title_clean": "Tennis Menace",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37210",
+                "boxart1": "zMkzm50.png",
+                "snapshot1": "ZKzTD8s.png"
+            },
+            {
+                "name": "Tom & Jerry Popper (Gakken LCD Card Game)",
+                "description": "Tom & Jerry Popper (Gakken LCD Card Game)",
+                "rom": {
+                    "name": "Tom%20%26%20Jerry%20Popper%20%28Gakken%20LCD%20Card%20Game%29.zip",
+                    "size": "482304"
+                },
+                "title_clean": "Tom & Jerry Popper",
+                "releasedate": "01/01/1983",
+                "year": "1983",
+                "genre": "Puzzle",
+                "nplayers": "1",
+                "thegamesdb_id": "46142",
+                "boxart1": "i4BDKDa.jpg"
+            },
+            {
+                "name": "Towering Rescue (Gakken, LCD Card Game)",
+                "description": "Towering Rescue (Gakken, LCD Card Game)",
+                "rom": {
+                    "name": "Towering%20Rescue%20%28Gakken%2C%20LCD%20Card%20Game%29.zip",
+                    "size": "430080"
+                },
+                "title_clean": "Towering Rescue",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37209",
+                "boxart1": "5F1XZnF.png",
+                "snapshot1": "NFhIXGw.png"
+            },
+            {
+                "name": "Tron (Tomytronic)",
+                "description": "Tron (Tomytronic)",
+                "rom": {
+                    "name": "Tron%20%28Tomytronic%29.zip",
+                    "size": "1465344"
+                },
+                "title_clean": "Tron",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "37208",
+                "boxart1": "AYT6ePS.png",
+                "snapshot1": "kxugExe.png"
+            },
+            {
+                "name": "Turtle Bridge (Nintendo, Wide Screen)",
+                "description": "Turtle Bridge (Nintendo, Wide Screen)",
+                "rom": {
+                    "name": "Turtle%20Bridge%20%28Nintendo%2C%20Wide%20Screen%29.zip",
+                    "size": "666624"
+                },
+                "title_clean": "Turtle Bridge",
+                "plot": "Your job is to bring parcels form one shore to the opposite. There are five turtles in the water between the two shores. You take one parcel, jump down on the first turtle and then on all the other turtles to reach the other shore. There you have give the parcel to another person. You have to go back to get a new parcel. Sometimes the turtles go down into the water to catch a fish, so you probably fall into the water and get a miss.",
+                "releasedate": "02/01/1982",
+                "year": "1982",
+                "genre": "Action",
+                "studio": "Nintendo Co.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "videoid": "PNN9BfjlKkA",
+                "thegamesdb_id": "33462",
+                "mobygames_url": "https://www.mobygames.com/game/dedicated-handheld/game-watch-wide-screen-turtle-bridge",
+                "boxart1": "w5E4Cgn.png",
+                "snapshot1": "GtotGED.png"
+            },
+            {
+                "name": "Wild Man Jump (VTech, Electronic Tini-Arcade)",
+                "description": "Wild Man Jump (VTech, Electronic Tini-Arcade)",
+                "rom": {
+                    "name": "Wild%20Man%20Jump%20%28VTech%2C%20Electronic%20Tini-Arcade%29.zip",
+                    "size": "1666048"
+                },
+                "title_clean": "Wild Man Jump",
+                "plot": "Another tabletop game, basically a Donkey Kong clone. This game is identical to the Monkey Jump handheld game, and the tabletop version has also been released by Cheryco as Monkey Jump, Innovator Electronics as Jungle Rescue, and also by Ludotronic as Hop' Man in France.",
+                "nplayers": "1",
+                "ESRB": "E - Everyone",
+                "thegamesdb_id": "36960",
+                "boxart1": "KILqba9.png",
+                "boxart2": "vjY24Ut.jpg",
+                "snapshot1": "R4KNIQl.png"
+            }
+        ]
+    }
+}

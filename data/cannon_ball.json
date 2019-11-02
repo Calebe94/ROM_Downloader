@@ -1,0 +1,46 @@
+{
+    "datafile": {
+        "header": {
+            "emu_name": "CannonBall",
+            "emu_description": "Standalone Game",
+            "emu_category": "Port",
+            "emu_version": "062618",
+            "emu_date": "11/01/2014",
+            "emu_author": "Zach Morris",
+            "emu_visibility": "visible",
+            "emu_homepage": "https://archive.org",
+            "emu_baseurl": "https://archive.org/download/",
+            "emu_launcher": "retroplayer",
+            "emu_default_addon": "none",
+            "emu_ext_launch_cmd": "none",
+            "emu_downloadpath": "default",
+            "emu_postdlaction": "unzip_to_folder_and_launch_file",
+            "emu_comment": "CannonBall is an enhanced OutRun engine by Chris White, featuring:[CR]Smoother 60fps gameplay[CR]True Widescreen Play Mode[CR]Force Feedback support[CR]Custom Track support[CR]New Game Modes (Continuous Mode and Time Trial Mode)[CR]Many, many more enhancements",
+            "emu_thumb": "HXTSf7W.jpg",
+            "emu_banner": "emQ2bso.jpg",
+            "emu_fanart": "JAGocrD.jpg",
+            "emu_logo": "kkJFWK2.png",
+            "emu_trailer": "LHyWzYou_8E"
+        },
+        "game": {
+            "name": "CannonBall",
+            "description": "CannonBall",
+            "rom": {
+                "name": "MAME_078/cannonball.zip",
+                "size": "903400"
+            },
+            "title_clean": "CannonBall",
+            "plot": "CannonBall is an enhanced OutRun engine by Chris White, featuring:[CR]Smoother 60fps gameplay[CR]True Widescreen Play Mode[CR]Force Feedback support[CR]Custom Track support[CR]New Game Modes (Continuous Mode and Time Trial Mode)[CR]Many, many more enhancements",
+            "releasedate": "11/01/2014",
+            "year": "2014",
+            "genre": "Retro",
+            "nplayers": "1",
+            "thegamesdb_id": null,
+            "videoid": "LHyWzYou_8E",
+            "boxart1": "HXTSf7W.jpg",
+            "banner1": "emQ2bso.jpg",
+            "fanart1": "JAGocrD.jpg",
+            "emu_command": "cannonball.game"
+        }
+    }
+}

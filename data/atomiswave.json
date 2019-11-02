@@ -1,0 +1,506 @@
+{
+    "datafile": {
+        "header": {
+            "emu_name": "Atomiswave",
+            "emu_description": "Arcade",
+            "emu_category": "Arcade",
+            "emu_version": "07012018",
+            "emu_date": "07/01/2018",
+            "emu_author": "Zach Morris",
+            "emu_visibility": "visible",
+            "emu_homepage": "https://archive.org",
+            "emu_baseurl": "https://archive.org/download/",
+            "emu_launcher": "retroplayer",
+            "emu_default_addon": "none",
+            "emu_ext_launch_cmd": "none",
+            "emu_downloadpath": "default",
+            "emu_postdlaction": "unarchive_game_launch_lst",
+            "emu_comment": "The Atomiswave is a custom arcade system board and cabinet from Sammy Corporation. It is based on Sega's NAOMI system board (thus it's common to see the \"Sega\" logo on its boot up screen). The Atomiswave uses interchangeable game cartridges and the cabinets control panel can be easily switched out with different control sets, including dual joysticks, dual lightguns and a steering wheel.[CR]With the retirement of the aging Neo Geo MVS system, SNK Playmore chose the Atomiswave as its next system to develop games for. In a contract with Sammy, SNK Playmore agreed to develop five games for the Atomiswave system.",
+            "emu_thumb": "OGRLqjw.jpg",
+            "emu_banner": "PQXd3E4.jpg",
+            "emu_fanart": "tpTBubq.jpg",
+            "emu_logo": "gY76rh7.png",
+            "emu_trailer": "slBeCjsLqsg"
+        },
+        "game": [
+            {
+                "name": "Animal Basket",
+                "description": "Animal Basket",
+                "rom": {
+                    "@crc": "42813b59",
+                    "name": "naomi_aw2naomi/aw2naomi/Animal_Basket.zip",
+                    "size": "49645315"
+                },
+                "title_clean": "Animal Basket",
+                "plot": "Animal Basket (Hustle Tamaire Kyousou) mimics a game traditionally played at Japanese sports festivals.  In this game, the furry competitors fight over a single ball.  The goal is attached to another animal, adding to the challenge by having a moving target.  One major difference between the human and robot characters is that the robot characters can blow up (or lose all their power) if they are worked too hard during a game. That can happen if you constantly make them dive for a ball, run extra bases, or even if they get hit by a pitch. Under no stress whatsoever, some robots, especially pitchers, will naturally run out of power as the game progresses. When this happens, they will lose all their abilities and be useless, both offensively and defensively.",
+                "releasedate": "01/24/2005",
+                "year": "2005",
+                "genre": "Sports",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "8UHqFGG.jpg",
+                "snapshot1": "sVn46A1.png",
+                "snapshot2": "CUKl5z3.png",
+                "clearlogo1": "vlHpFeJ.png",
+                "videoid": "pytwFCGKVg"
+            },
+            {
+                "name": "Demolish Fist",
+                "description": "Demolish Fist",
+                "rom": {
+                    "@crc": "d5da2939",
+                    "name": "naomi_aw2naomi/aw2naomi/Demolish_Fist.zip",
+                    "size": "71081312"
+                },
+                "title_clean": "Demolish Fist",
+                "plot": "The player controls one of four characters: Enzo, Leoneer, Vanessa, or Undead. As you battle your way through various stages, there are many items which are available to use as a weapons against your enemies. Each player has their own assortment of moves and specials that they can unleash at will. Also, all four of these characters have the ability to use the awesome Vertigo technique!",
+                "year": "2003",
+                "genre": "Action, Fighting",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "IhE9jQF.jpg",
+                "snapshot1": "B7pcRoV.png",
+                "snapshot2": "IVl5SI4.png",
+                "clearlogo1": "1tqNc4L.png",
+                "fanart1": "CGJUK8Z.jpg",
+                "videoid": "lORa5-s1LjY"
+            },
+            {
+                "name": "Dirty Pigskin Football",
+                "description": "Dirty Pigskin Football",
+                "rom": {
+                    "@crc": "ed6afaef",
+                    "name": "naomi_aw2naomi/aw2naomi/Dirty_Pigskin_Football.zip",
+                    "size": "70779644"
+                },
+                "title_clean": "Dirty Pigskin Football",
+                "plot": "This is Football with a twist. Rather than regularly suited up football players each with their own set of morals, we have got a completely unique cast of players who don't know the meaning of the word. One of the featured teams is: The prisoners, in their traditional orange jail overalls. Then we have: The Hitman group, a group of assassins, all dressed in black suits and dark glasses, pleasant right? These men are all just urging to get their hands dirty. In total there are 12 teams in this game, various venues to play at, and the game also features a cool 4-player simultaneous play mode. With a play system that is easy to use, Pigskin welcomes all level of player to join in the action.",
+                "year": "2004",
+                "genre": "Sports",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "pLNOVNT.jpg",
+                "boxart2": "UUdGeEF.jpg",
+                "snapshot1": "YGrO2vF.png",
+                "snapshot2": "Nm31Kn2.png",
+                "clearlogo1": "thMfdxl.png",
+                "fanart1": "CfR3ko2.jpg",
+                "videoid": "21k3brydMOM"
+            },
+            {
+                "name": "Dolphin Blue",
+                "description": "Dolphin Blue",
+                "rom": {
+                    "@crc": "ad9f8d9d",
+                    "name": "naomi_aw2naomi/aw2naomi/Dolphin_Blue.zip",
+                    "size": "63250018"
+                },
+                "title_clean": "Dolphin Blue",
+                "plot": "Dolphin Blue is a bit of an oddity. Developed and published by Sammy for their Atomiswave hardware, its a run-n-gun arcade game released in 2003, at a time when run-n-guns were mostly out of the mainstream. It's also very obviously inspired by Metal Slug, which was, not coincidentally, the only other run-and-gun series that was still on the marketplace at this point. You play as one of two characters - Eiro, an arms dealer who is looking for some action, or Ann, a soldier who is out to protect the local kingdom. Each of them also have their own pet dolphins, which are blue and pink, respectively. The game is set in the future, and a major incident has transformed what used to be a peaceful nation into a troubled land of waste and ruin, damaging the Earths surface and immersing most everything underwater. The heroes have to protect the Earths remains from an evil empire that wants to take over the world, and rescue a princess figure in the process. The premise was almost definitely inspired by Waterworld, a movie released a decade earlier.",
+                "year": "2003",
+                "genre": "Shooter",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "Kq22lGe.jpg",
+                "boxart2": "vZAEy8G.jpg",
+                "snapshot1": "eh3Bm7V.png",
+                "snapshot2": "9DOjq0M.png",
+                "clearlogo1": "MusAu7Q.png",
+                "fanart1": "ZJjNBjB.jpg",
+                "videoid": "X9X3b789CLA"
+            },
+            {
+                "name": "Faster Than Speed",
+                "description": "Faster Than Speed",
+                "rom": {
+                    "@crc": "90efd49d",
+                    "name": "naomi_aw2naomi/aw2naomi/Faster_Than_Speed.zip",
+                    "size": "119436170"
+                },
+                "title_clean": "Faster Than Speed",
+                "plot": "Enter the exciting street-racing world of FASTER THAN SPEED where the winner rules and the loser walks! Hit the street with the most addictive driving experience of your life! Pick from 8 customized rides. FASTER THAN SPEED will take your players into the exotic, dim-lit, back streets of over 6 tracks challenging the quickest, the fastest, the baddest, and the most stocked racer conquers the asphalt! To take down your challenger, you need to burn the street with a variety of high-speed tricks.",
+                "year": "2004",
+                "genre": "Racing",
+                "studio": "Sammy",
+                "nplayers": "1",
+                "boxart1": "tgybo5m.jpg",
+                "snapshot1": "R8Dlae5.png",
+                "snapshot2": "wqFdDbg.png",
+                "clearlogo1": "N7iWJ81.png",
+                "fanart1": "pFJLT9Q.jpg",
+                "videoid": "ZlJwA2MQzDw"
+            },
+            {
+                "name": "Fist of the North Star",
+                "description": "Fist of the North Star",
+                "rom": {
+                    "@crc": "9f42ec26",
+                    "name": "naomi_aw2naomi/aw2naomi/Fist_of_the_North_Star.zip",
+                    "size": "94697014"
+                },
+                "title_clean": "Fist of the North Star",
+                "plot": "The game is based on the eponymous manga and features 10 fighters: Kenshiro, Raoh, Toki, Jagi, Souther, Rei, Shin, Yuda, Mamiya and Heart",
+                "year": "2005",
+                "genre": "Fighting",
+                "studio": "Sega",
+                "nplayers": "2",
+                "boxart1": "KUszWU8.jpg",
+                "boxart2": "woPUMYs.jpg",
+                "snapshot1": "Vq0EALj.png",
+                "snapshot2": "1VskEQM.png",
+                "clearlogo1": "qCyWtyg.png",
+                "fanart1": "xtnzImc.jpg",
+                "videoid": "JbBZvGk-Rus"
+            },
+            {
+                "name": "Guilty Gear Isuka",
+                "description": "Guilty Gear Isuka",
+                "rom": {
+                    "@crc": "5c2cb45e",
+                    "name": "naomi_aw2naomi/aw2naomi/Guilty_Gear_Isuka.zip",
+                    "size": "104812679"
+                },
+                "title_clean": "Guilty Gear Isuka",
+                "plot": "The brilliant 2D wonder is back in all its glory! Guilty Gear has rocked the 2D world ever since its very first release. It has captured the attention of 2D lovers worldwide. The original, vast and complex system of this classic sets it apart from other one on one beat 'em ups, also along with it's great and definitive character design. Guilty Gear has many great features to its system. In Isuka you can now play up to 4 players simultaneously. You can either go against 3 other opponents alone to test your individual skills, or pair up with a partner and go head to head against an opposing team. The choice is yours. Now the level of excitement can be taken up yet again with this great new version called Guilty Gear Isuka!",
+                "year": "2004",
+                "genre": "Fighting",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "ZggyZAr.jpg",
+                "boxart2": "62451mf.jpg",
+                "snapshot1": "3EMrPxY.png",
+                "snapshot2": "UFCVIQF.png",
+                "clearlogo1": "LLLdKca.png",
+                "fanart1": "F52gWEE.jpg",
+                "videoid": "BuMbaL3EGgE"
+            },
+            {
+                "name": "Guilty Gear X",
+                "description": "Guilty Gear X",
+                "rom": {
+                    "@crc": "a97dcc48",
+                    "name": "naomi_aw2naomi/aw2naomi/Guilty_Gear_X.zip",
+                    "size": "91582771"
+                },
+                "title_clean": "Guilty Gear X",
+                "plot": "When the humans created artificial beings named \"gears\" in 22th century, they didn't expect that their creation will eventually turn against them. Because gears had no will of their own and could only obey humans. Only one gear, named Justice, was able to transfer his will onto other gears and to rebel against the humans. In year 2180, Justice was killed as a result of a bloody tournament organized by the Sacred Order of Holy Knights. Yet recently, a new gear was discovered. He showed no signs of hostility, yet he had no master and was roaming about free. It was impossible to capture or to kill him because he was immensely strong. Fearing a new Justice will grow out of this gear, the Order organized yet another tournament, this time with a solid prize: five hundred thousand world dollars for the winner. Guilty Gear X is a follow up to Guilty Gear, and is also a 2D fighting game. There are now 16 characters available for you to choose. The battle system became more complicated, thanks to the variety of moves you can perform. Beside special attacks which you can execute if you build up your Tension Gauge by attacking or advancing towards your opponent, there is also a variety of defensing moves to perform. The instant kill moves are back from the previous game.",
+                "year": "2003",
+                "genre": "Fighting",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "Rudo95z.jpg",
+                "boxart2": "66ZCok9.jpg",
+                "snapshot1": "JrYxbI0.png",
+                "snapshot2": "h2NcM7u.png",
+                "clearlogo1": "0oetSig.png",
+                "fanart1": "7dbHn24.jpg",
+                "videoid": "I_pEtOIDt2c"
+            },
+            {
+                "name": "King of Fighters Neowave",
+                "description": "King of Fighters Neowave",
+                "rom": {
+                    "@crc": "68c7850b",
+                    "name": "naomi_aw2naomi/aw2naomi/King_of_Fighters_Neowave.zip",
+                    "size": "98497757"
+                },
+                "title_clean": "King of Fighters Neowave",
+                "plot": "The King of Fighters Neowave is a 2004 2D competitive fighting game produced by SNK Playmore and originally released as a coin-operated arcade game for Sammy's Atomiswave hardware. It was the first game SNK Playmore produced for the Atomiswave. An offshoot of The King of Fighters series, it is not counted in the main series numbering.",
+                "year": "2004",
+                "genre": "Fighting",
+                "studio": "SNK",
+                "nplayers": "2",
+                "boxart1": "7XkYMdU.jpg",
+                "snapshot1": "qeIV2hd.png",
+                "snapshot2": "3g3ZoPn.png",
+                "clearlogo1": "jIuLrWN.png",
+                "fanart1": "ciURFHI.jpg",
+                "videoid": "6FW2qB82t-M"
+            },
+            {
+                "name": "King of Fighters XI",
+                "description": "King of Fighters XI",
+                "rom": {
+                    "@crc": "e29eda1d",
+                    "name": "naomi_aw2naomi/aw2naomi/King_of_Fighters_XI.zip",
+                    "size": "184980857"
+                },
+                "title_clean": "King of Fighters XI",
+                "plot": "The King of Fighters XI is a 2D fighting game produced by SNK Playmore originally released in 2005 as a coin-operated arcade game for the Atomiswave platform. It is the eleventh official installment in The King of Fighters series following The King of Fighters 2003, although The King of Fighters Neowave was previously released for the same platform.",
+                "year": "2005",
+                "genre": "Fighting",
+                "studio": "SNK",
+                "nplayers": "2",
+                "boxart1": "X6yZUp7.jpg",
+                "clearlogo1": "c2nrLjv.png",
+                "fanart1": "nqqQA9E.jpg",
+                "videoid": "PZPuQeOeBhk"
+            },
+            {
+                "name": "Knights of Valour Seven Spirits",
+                "description": "Knights of Valour Seven Spirits",
+                "rom": {
+                    "@crc": "29c7c1d3",
+                    "name": "naomi_aw2naomi/aw2naomi/Knights_of_Valour_Seven_Spirits.zip",
+                    "size": "40822951"
+                },
+                "title_clean": "Knights of Valour Seven Spirits",
+                "plot": "Knights of Valour is a very classic, famous Sango story based, 2.5D side-scrolling action game series in the arcade market, developed by the Taiwan International Games System Co., Ltd. (IGS) adapting from one of the Chinese Four Great Classical Novels, with many models and versions.[CR]New Knights of Valour The Seven Spirits is a sequel of KoV series released by IGS together with Sammy and Atomiswave. In KoV 3, a big feature is switched the hitting method to a new \"press keys in rhyme\". In laymans terms that means the every hit is pressed out using buttons, which is not shaken out using the rocker as usual other Knights of Valour series.",
+                "year": "2003",
+                "genre": "Fighting",
+                "studio": "IGS",
+                "nplayers": "2",
+                "boxart1": "7HJVjS3.jpg",
+                "snapshot1": "AVefVNe.jpg",
+                "clearlogo1": "6TvBXFS.png",
+                "fanart1": "0Lnj7Ut.jpg",
+                "videoid": "8v8ObiQU0G0"
+            },
+            {
+                "name": "Maximum Speed",
+                "description": "Maximum Speed",
+                "rom": {
+                    "@crc": "67925525",
+                    "name": "naomi_aw2naomi/aw2naomi/Maximum_Speed.zip",
+                    "size": "87120328"
+                },
+                "title_clean": "Maximum Speed",
+                "plot": "Maximum Speed is a racing game in similar style to Daytona USA. You can choose to drive either trucks, stock cars, or Formula 1 vehicles.",
+                "year": "2003",
+                "genre": "Racing",
+                "studio": "Sammy",
+                "nplayers": "1",
+                "boxart1": "cU6iy8u.jpg",
+                "snapshot1": "YlkOCUe.png",
+                "snapshot2": "ddwxPur.png",
+                "clearlogo1": "TferUSc.png",
+                "videoid": "ZcBTwW6R5kI"
+            },
+            {
+                "name": "Metal Slug 6",
+                "description": "Metal Slug 6",
+                "rom": {
+                    "@crc": "8b236f47",
+                    "name": "naomi_aw2naomi/aw2naomi/Metal_Slug_6.zip",
+                    "size": "155031754"
+                },
+                "title_clean": "Metal Slug 6",
+                "plot": "Negotiations have broken off and hostages have been taken! Your country needs a highly trained mercenary to neutralize the enemy and free the hostages. Metal Slug 6 is a 1 or 2 player game with continuous buy-in. It is the first installment of the series developed on Sega's arcade hardware system. Metal Slug 6 includes 6 characters, with two new being Ralph and Clark from the King of Fighters series. Plus, two new player control buttons have been added to allow for greater control over the action!",
+                "year": "2006",
+                "genre": "Action, Shooter",
+                "studio": "SNK",
+                "nplayers": "2",
+                "boxart1": "tRKnCQw.jpg",
+                "snapshot1": "sd2j1FX.png",
+                "snapshot2": "gHgTvrG.png",
+                "clearlogo1": "GE085Wy.png",
+                "fanart1": "8oeF3RQ.jpg",
+                "videoid": "hBV21g5FXr8"
+            },
+            {
+                "name": "Metal Slug 6 (Blood)",
+                "description": "Metal Slug 6 (Blood)",
+                "rom": {
+                    "@crc": "781782b6",
+                    "name": "naomi_aw2naomi/aw2naomi/Metal_Slug_6_Blood.zip",
+                    "size": "155031810"
+                },
+                "title_clean": "Metal Slug 6",
+                "plot": "Metal Slug 6 Blood Hack.[CR]Negotiations have broken off and hostages have been taken! Your country needs a highly trained mercenary to neutralize the enemy and free the hostages. Metal Slug 6 is a 1 or 2 player game with continuous buy-in. It is the first installment of the series developed on Sega's arcade hardware system. Metal Slug 6 includes 6 characters, with two new being Ralph and Clark from the King of Fighters series. Plus, two new player control buttons have been added to allow for greater control over the action!",
+                "year": "2006",
+                "genre": "Action, Shooter",
+                "studio": "SNK",
+                "nplayers": "2",
+                "boxart1": "j4GFcHg.jpg",
+                "snapshot1": "sd2j1FX.png",
+                "snapshot2": "gHgTvrG.png",
+                "clearlogo1": "GE085Wy.png",
+                "fanart1": "8oeF3RQ.jpg",
+                "videoid": "zCjZU338C0M"
+            },
+            {
+                "name": "Neo Geo Battle Colliseum",
+                "description": "Neo Geo Battle Colliseum",
+                "rom": {
+                    "@crc": "8ae76392",
+                    "name": "naomi_aw2naomi/aw2naomi/Neo_Geo_Battle_Colliseum.zip",
+                    "size": "160179771"
+                },
+                "title_clean": "Neo Geo Battle Colliseum",
+                "plot": "NeoGeo Battle Coliseum is a 2-on-2 tag team fighting game for the Atomiswave arcade board developed and released by SNK in 2005. The game features characters from several SNK and ADK titles.",
+                "year": "2005",
+                "genre": "Fighting",
+                "studio": "SNK",
+                "nplayers": "2",
+                "boxart1": "MpA9h9D.jpg",
+                "snapshot1": "1qaj8WN.png",
+                "snapshot2": "j6792Ch.png",
+                "clearlogo1": "XZrv5cR.png",
+                "fanart1": "0f5Mh1l.jpg",
+                "videoid": "755KWYd09hY"
+            },
+            {
+                "name": "Rumble Fish",
+                "description": "Rumble Fish",
+                "rom": {
+                    "@crc": "0b184939",
+                    "name": "naomi_aw2naomi/aw2naomi/Rumble_Fish.zip",
+                    "size": "56955460"
+                },
+                "title_clean": "Rumble Fish",
+                "plot": "The Rumble Fish is a 2D fighting game developed by Dimps and first published by Sammy for the Atomiswave arcade platform in 2004.  The game takes place in the distant future during the 21st century. During the turn of the 21st century, a large-scale natural disaster tears through the eastern side of an unverified country, destroying its economical and political operations and taking a total of 158,000 lives. A prominent corporation in the series, called PROBE-NEXUS, moves its base of operations to the ruined east side and begins reconstructing the area. The rebuilt area flourishes again as it becomes a wealthy and busy city known as Zone Prime, which serves as the backdrop for many locales in the game.",
+                "year": "2004",
+                "genre": "Fighting",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "GYq0khk.jpg",
+                "snapshot1": "K6dB78F.png",
+                "snapshot2": "9SjVOgw.png",
+                "clearlogo1": "Gc1Xc3n.png",
+                "fanart1": "bVG78PU.jpg",
+                "videoid": "_3xXa406MiI"
+            },
+            {
+                "name": "Rumble Fish 2",
+                "description": "Rumble Fish 2",
+                "rom": {
+                    "@crc": "085e5cad",
+                    "name": "naomi_aw2naomi/aw2naomi/Rumble_Fish_2.zip",
+                    "size": "90921620"
+                },
+                "title_clean": "Rumble Fish 2",
+                "plot": "The Rumble Fish 2 is a 2D fighting game for the Atomiswave arcade platform. The Rumble Fish 2 uses all of the elements from the first game and adds some new ones. The Offense and Defense gauges have been divided into three sections each, allowing for more usage of Offensive and Defensive Arts, as well as techniques tied to each gauge. An addition to the system is the Boost Dive, which puts each character into a powered-up state according to their style. Most characters have had modifications to their movelists in some way, such as new moves and new commands for old moves.",
+                "year": "2005",
+                "genre": "Fighting",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "OlD91iJ.jpg",
+                "snapshot1": "OIicQUi.png",
+                "snapshot2": "z6sMhHP.png",
+                "clearlogo1": "lAkZKLf.png",
+                "videoid": "9uGaG_Cpcck"
+            },
+            {
+                "name": "Salary Man",
+                "description": "Salary Man",
+                "rom": {
+                    "@crc": "dab9739a",
+                    "name": "naomi_aw2naomi/aw2naomi/Salary_Man.zip",
+                    "size": "59262029"
+                },
+                "title_clean": "Salary Man",
+                "plot": "Salaryman Kintarou is an Action game, developed and published by Sammy Studios, which was released in Japan in 2004.",
+                "year": "2004",
+                "genre": "Action",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "fPz92ux.jpg",
+                "snapshot1": "iZC2J58.png",
+                "snapshot2": "t236x1a.png",
+                "clearlogo1": "zVyyIJ6.png",
+                "fanart1": "RGBP6aU.jpg",
+                "videoid": "0OQRQqyfw3M"
+            },
+            {
+                "name": "Samurai Showdown VI",
+                "description": "Samurai Showdown VI",
+                "rom": {
+                    "@crc": "4209f91e",
+                    "name": "naomi_aw2naomi/aw2naomi/Samurai_Showdown_VI.zip",
+                    "size": "152031968"
+                },
+                "title_clean": "Samurai Showdown VI",
+                "plot": "Samurai Spirits Tenkaichi Kenkakuden is a dream match game which features the entire cast from Samurai Shodown V Special, seven returning characters from Samurai Shodown and Samurai Shodown II, and several new characters added to the Playstation 2 port of the game. The story is parallel to Samurai Shodown V; Yoshitora decides to find out who the strongest fighter in the world is, so a tournament is then organized with this purpose. The game is similar to the Samurai Showdown V Special; however, the player is now capable of using one of six different fighting systems, all of which have their own advantages and disadvantages. Items like bombs and rocks can also be picked up and thrown at the enemy.",
+                "year": "2005",
+                "genre": "Fighting",
+                "studio": "SNK",
+                "nplayers": "2",
+                "boxart1": "12CE7db.jpg",
+                "boxart2": "8EFqSvy.jpg",
+                "snapshot1": "OSfUWdY.png",
+                "snapshot2": "s6NwNr8.png",
+                "clearlogo1": "NB8J1wL.png",
+                "videoid": "46JlWMzSIpQ"
+            },
+            {
+                "name": "Sega Bass Fishing Challenge",
+                "description": "Sega Bass Fishing Challenge",
+                "rom": {
+                    "@crc": "99bc12f8",
+                    "name": "naomi_aw2naomi/aw2naomi/Sega_Bass_Fishing_Challenge.zip",
+                    "size": "66157848"
+                },
+                "title_clean": "Sega Bass Fishing Challenge",
+                "plot": "Sega Bass Fishing Challenge is the latest entry in the Sega Bass Fishing series. It was released for the Atomiswave arcade platform in 2009 and was released for iOS devices in autumn 2011.",
+                "year": "2009",
+                "genre": "Sports",
+                "studio": "Sega",
+                "nplayers": "1",
+                "boxart1": "5bBc54H.jpg",
+                "boxart2": "r6bxD2L.jpg",
+                "fanart1": "36joEOp.jpg",
+                "videoid": "MPgvxoRQUJg"
+            },
+            {
+                "name": "Sega Clay Challenge",
+                "description": "Sega Clay Challenge",
+                "rom": {
+                    "@crc": "c60e370e",
+                    "name": "naomi_aw2naomi/aw2naomi/Sega_Clay_Challenge.zip",
+                    "size": "67645469"
+                },
+                "title_clean": "Sega Clay Challenge",
+                "plot": "Sega Clay Challenge is a Atomiswave light gun game released by Sega in 2008. It was also sold as a conversion kit for Extreme Hunting, Extreme Hunting 2, Ranger Mission or Sports Shooting USA - any Atomiswave game which is compatible with the Sega NAOMI universal upright cabinet (with light guns).",
+                "year": "2008",
+                "genre": "Sports",
+                "studio": "Sega",
+                "nplayers": "1",
+                "boxart1": "LccA4Jx.jpg",
+                "clearlogo1": "dI3za7k.png",
+                "fanart1": "mYnrEYu.jpg",
+                "videoid": "awN5rO8m3OQ"
+            },
+            {
+                "name": "Sports Shooting USA",
+                "description": "Sports Shooting USA",
+                "rom": {
+                    "@crc": "a58252cd",
+                    "name": "naomi_aw2naomi/aw2naomi/Sports_Shooting_USA.zip",
+                    "size": "99988317"
+                },
+                "title_clean": "Sports Shooting USA",
+                "plot": "Sport Shooting USA is a competitive 1 to 2 player shooting game where players, using optical guns, must shoot a number of required on-screen targets within a certain time limit to qualify and proceed to next round.",
+                "year": "2003",
+                "genre": "Sports",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "H81jMO2.jpg",
+                "snapshot1": "QxRsgKy.png",
+                "snapshot2": "rFKMdUN.png",
+                "clearlogo1": "jOM0kIv.png",
+                "fanart1": "OkbvktQ.jpg",
+                "videoid": "Vl26hCg5h2k"
+            },
+            {
+                "name": "Sushi Bar",
+                "description": "Sushi Bar",
+                "rom": {
+                    "@crc": "2ba2d27d",
+                    "name": "naomi_aw2naomi/aw2naomi/Sushi_Bar.zip",
+                    "size": "81416599"
+                },
+                "title_clean": "Sushi Bar",
+                "plot": "So you aspire to become a sushi chef? Here you challenge your opponent in epic sushi battles! Culinary fights in the vein of Puzzle Fighter.",
+                "year": "2003",
+                "genre": "Puzzle, Fighter",
+                "studio": "Sammy",
+                "nplayers": "2",
+                "boxart1": "Oo3GBhT.jpg",
+                "snapshot1": "p1C0dH8.jpg",
+                "snapshot2": "8CxVyNX.jpg",
+                "clearlogo1": "r0PRpLO.png",
+                "videoid": "i_iFH-OYrAc"
+            }
+        ]
+    }
+}

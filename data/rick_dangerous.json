@@ -1,0 +1,47 @@
+{
+    "datafile": {
+        "header": {
+            "emu_name": "Rick Dangerous",
+            "emu_description": "Standalone Game",
+            "emu_category": "Port",
+            "emu_version": "04182019",
+            "emu_date": "3/24/2017",
+            "emu_author": "Bigorno",
+            "emu_visibility": "visible",
+            "emu_homepage": "https://www.bigorno.net/xrick/",
+            "emu_baseurl": "http://buildbot.libretro.com/assets/cores/",
+            "emu_launcher": "retroplayer",
+            "emu_default_addon": "none",
+            "emu_ext_launch_cmd": "none",
+            "emu_downloadpath": "default",
+            "emu_postdlaction": "none",
+            "emu_comment": "Way before Lara Croft, back in the 1980s and early 1990s, Rick Dangerous was the Indiana Jones of computer games, running away from rolling rocks, avoiding traps, from South America to a futuristic missile base via Egypt and the Schwarzendumpf castle.[CR]xRick is a clone of Rick Dangerous.[CR]Rick Dangerous is a platform game developed by Core Design for the Amiga, Atari ST, Amstrad CPC, ZX Spectrum, Commodore 64 and MS-DOS based PCs. The game was released in 1989 and published by Rainbird Software in Europe and the rest of the world, and on the MicroPlay label (part of MicroProse) in America. Later, it was released with two other games, Stunt Car Racer and Microprose Soccer, on the Commodore 64 Powerplay 64 cartridge.",
+            "emu_thumb": "vtkV8vP.jpg",
+            "emu_banner": "60hM4Op.jpg",
+            "emu_fanart": "iBGaUnV.jpg",
+            "emu_logo": "F7IxpAE.png",
+            "emu_trailer": "zfxES5zAuZ8"
+        },
+        "game": {
+            "name": "Rick Dangerous",
+            "description": "Rick Dangerous",
+            "rom": {
+                "name": "Rick%20Dangerous/Rick%20Dangerous.zip",
+                "size": "1572864"
+            },
+            "title_clean": "Rick Dangerous",
+            "plot": "You play Rick Dangerous, an Indiana Jones type whos on a quest to find the lost Coolu Amazon tribe. However, his plane crashes in the middle of a bunch of crazed Coolus. Hopefully hes up to the challenge of escaping. If he is, he will find himself in the pyramid of Egypt with no easy way past leaders and their minions, and then engulfed in a web of traps in a Nazi base.[CR]Rick Dangerous is a platform game across over 100 screens, in which Rick has his gun in one hand, and dynamite sticks in another. You must take a methodical approach to clearing each screen, as there are traps in place which will need memorizing and preempting where possible. Use the dynamite wisely, for enemies you can't get into the purely-horizontal range of your gun.",
+            "releasedate": "07/01/1989",
+            "year": "1989",
+            "genre": "Retro",
+            "nplayers": "1",
+            "videoid": "zfxES5zAuZ8",
+            "boxart1": "vtkV8vP.jpg",
+            "boxart2": "JEO6ywH.jpg",
+            "banner1": "60hM4Op.jpg",
+            "snapshot1": "MzikVUK.png",
+            "snapshot2": "MIlvwYk.png",
+            "fanart1": "iBGaUnV.jpg"
+        }
+    }
+}

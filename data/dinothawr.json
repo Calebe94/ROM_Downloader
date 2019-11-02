@@ -1,0 +1,47 @@
+{
+    "datafile": {
+        "header": {
+            "emu_name": "Dinothawr",
+            "emu_description": "Standalone Game",
+            "emu_category": "Port",
+            "emu_version": "04012018",
+            "emu_date": "9/14/2016",
+            "emu_author": "Lefty420",
+            "emu_visibility": "visible",
+            "emu_homepage": "https://archive.org",
+            "emu_baseurl": "https://archive.org/download/",
+            "emu_launcher": "retroplayer",
+            "emu_default_addon": "none",
+            "emu_ext_launch_cmd": "none",
+            "emu_downloadpath": "default",
+            "emu_postdlaction": "unzip_to_folder_and_launch_file",
+            "emu_comment": "Dinothawr is a block pushing puzzle game on slippery surfaces. Our hero is a dinosaur whose friends are trapped in ice. Through puzzles it is your task to free the dinos from their ice prison.",
+            "emu_thumb": "T5PSkqb.jpg",
+            "emu_banner": "F1y5y5A.jpg",
+            "emu_fanart": "c9wAHu4.png",
+            "emu_logo": "F7IxpAE.png",
+            "emu_trailer": "VQpHejqlzzY"
+        },
+        "game": {
+            "name": "Dinothawr",
+            "description": "Dinothawr",
+            "rom": {
+                "name": "tom_bftp_D/dinothawr.zip",
+                "size": "6728842"
+            },
+            "title_clean": "Dinothawr",
+            "plot": "Dinothawr is a block pushing puzzle game on slippery surfaces. Our hero is a dinosaur whose friends are trapped in ice. Through puzzles it is your task to free the dinos from their ice prison.",
+            "releasedate": "09/21/2013",
+            "year": "2013",
+            "genre": "Retro",
+            "nplayers": "1",
+            "thegamesdb_id": null,
+            "videoid": "d62cb9z6j9M",
+            "giantbomb_url": "https://www.giantbomb.com/dinothawr/3030-45105/",
+            "boxart1": "T5PSkqb.jpg",
+            "banner1": "F1y5y5A.jpg",
+            "fanart1": "c9wAHu4.png",
+            "emu_command": "dinothawr.game"
+        }
+    }
+}

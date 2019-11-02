@@ -1,0 +1,121 @@
+{
+    "datafile": {
+        "header": {
+            "emu_name": "Lutro",
+            "emu_description": "Standalone Game",
+            "emu_category": "Port",
+            "emu_version": "04012018",
+            "emu_date": "10/13/2017",
+            "emu_author": "Zach Morris",
+            "emu_visibility": "visible",
+            "emu_homepage": "https://www.libretro.com",
+            "emu_baseurl": "https://buildbot.libretro.com/assets/cores/Lutro/",
+            "emu_launcher": "retroplayer",
+            "emu_default_addon": "none",
+            "emu_ext_launch_cmd": "none",
+            "emu_downloadpath": "default",
+            "emu_postdlaction": "none",
+            "emu_comment": "Lutro is an in-development Love 2D reimplementation written in Lua.  With Lutro, it is possible to easily create Lua games with no knowledge of C being necessary, or having to compile any code.",
+            "emu_thumb": "fJKIkXT.png",
+            "emu_banner": "80iRAPM.png",
+            "emu_fanart": "M9waixy.png",
+            "emu_logo": "T7QFlwF.png",
+            "emu_trailer": "Yw4pTtJjZWI"
+        },
+        "game": [
+            {
+                "name": "Deep Dungeon",
+                "description": "Deep Dungeon",
+                "rom": {
+                    "name": "Deep%20Dungeon.lutro",
+                    "size": "1056768"
+                },
+                "title_clean": "Deep Dungeon",
+                "snapshot1": "hUOwR2A.png",
+                "snapshot2": "4mlgfAN.png"
+            },
+            {
+                "name": "Game of Life",
+                "description": "Game of Life",
+                "rom": {
+                    "name": "Game%20of%20Life.lutro",
+                    "size": "2048"
+                },
+                "title_clean": "Game of Life",
+                "snapshot1": "oJEJBd9.png"
+            },
+            {
+                "name": "In Your Face City Trains",
+                "description": "In Your Face City Trains",
+                "rom": {
+                    "name": "In%20Your%20Face%20City%20Trains.lutro",
+                    "size": "1770496"
+                },
+                "title_clean": "In Your Face City Trains",
+                "snapshot1": "1MPdGLb.png",
+                "snapshot2": "IXhCDGX.png"
+            },
+            {
+                "name": "Platformer",
+                "description": "Platformer",
+                "rom": {
+                    "name": "Platformer.lutro",
+                    "size": "425984"
+                },
+                "title_clean": "Platformer",
+                "snapshot1": "8vLFyN8.png"
+            },
+            {
+                "name": "Pong",
+                "description": "Pong",
+                "rom": {
+                    "name": "Pong.lutro",
+                    "size": "59392"
+                },
+                "title_clean": "Pong",
+                "snapshot1": "0K1euVl.png"
+            },
+            {
+                "name": "Sienna",
+                "description": "Sienna",
+                "rom": {
+                    "name": "Sienna.lutro",
+                    "size": "1685504"
+                },
+                "title_clean": "Sienna",
+                "snapshot1": "KLufkrz.png",
+                "snapshot2": "Ncnc7cL.png"
+            },
+            {
+                "name": "Snake",
+                "description": "Snake",
+                "rom": {
+                    "name": "Snake.lutro",
+                    "size": "1024"
+                },
+                "title_clean": "Snake",
+                "snapshot1": "5fXrMRw.png"
+            },
+            {
+                "name": "Spaceship",
+                "description": "Spaceship",
+                "rom": {
+                    "name": "Spaceship.lutro",
+                    "size": "634880"
+                },
+                "title_clean": "Spaceship",
+                "snapshot1": "WIW78ei.png"
+            },
+            {
+                "name": "Tetris",
+                "description": "Tetris",
+                "rom": {
+                    "name": "Tetris.lutro",
+                    "size": "1516544"
+                },
+                "title_clean": "Tetris",
+                "snapshot1": "DKfjSQq.png"
+            }
+        ]
+    }
+}

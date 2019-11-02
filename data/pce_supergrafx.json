@@ -1,0 +1,129 @@
+{
+    "datafile": {
+        "header": {
+            "emu_name": "PCE SuperGrafx",
+            "emu_description": "PCE SuperGrafx",
+            "emu_category": "NEC, 1990s, Console, 16 Bit",
+            "emu_version": "10052019",
+            "emu_date": "09/16/2016",
+            "emu_author": "Zach Morris",
+            "emu_visibility": "visible",
+            "emu_homepage": "http://www.no-intro.org",
+            "emu_baseurl": "http://archive.org/download/",
+            "emu_launcher": "retroplayer",
+            "emu_default_addon": "none",
+            "emu_ext_launch_cmd": "none",
+            "emu_downloadpath": "default",
+            "emu_postdlaction": "unzip_rom",
+            "emu_comment": "The PC Engine SuperGrafx, also shortened as the SuperGrafx or PC Engine SG, is a video game console by NEC Home Electronics, released exclusively in Japan. It is an upgraded version of the PC Engine, released two years prior. Like the PC Engine, the SuperGrafx was also imported and sold in France. Originally announced as the PC Engine 2, the machine was purported to be a true 16-bit system with improved graphics and audio capabilities over the original PC Engine. Expected to be released in 1990, the SuperGrafx was rushed to market, debuting several months earlier in late 1989 with only modest improvements over the original PC Engine. Only seven games were produced which took advantage of the improved SuperGrafx hardware, and two of those could be played on a regular PC Engine. However, the SuperGrafx is backwards compatible with all PC Engine software in both, HuCard and CD-ROM format, bringing the compatible software total up to nearly 700. The system was not widely adopted and is largely seen as a commercial failure.[CR]Developer:   NEC Home Electronics[CR]Manufacturer:   NEC Home Electronics[CR]CPU:  8-bit HuC6280A, a modified 65SC02[CR]Memory:  32 kB RAM[CR]Graphics:  One 16-bit HuC6260 VCE, two 16-bit HuC6270A VDCs, and one HuC6202 VPC[CR]Sound:  HuC6280A[CR]Display:  565\u00d7242[CR]Media:  HuCard or CD-ROM[CR]Max Controllers:  2",
+            "emu_thumb": "B1EdK9k.png",
+            "emu_banner": "h0a7OIF.jpg",
+            "emu_fanart": "V3dBYEc.jpg",
+            "emu_logo": "EIif0tY.png",
+            "emu_trailer": "OXTC2GaeH0g"
+        },
+        "game": [
+            {
+                "name": "1941 - Counter Attack (Japan)",
+                "description": "1941 - Counter Attack (Japan)",
+                "rom": {
+                    "name": "No-Intro-Collection_2016-09-06/Nec-PcEngineSupergrafx.zip/1941%20-%20Counter%20Attack%20%28Japan%29.zip",
+                    "size": "664289"
+                },
+                "title_clean": "1941 - Counter Attack",
+                "plot": "1941 Counter Attack is a vertical shooter by Capcom and conversion of the arcade game of the same name originally released in 1990. The action takes place during World War II and depicts Capcom's own fantastic vision of the historic battle between the American and Japanese air forces in the Pacific. The player's mission is rather straightforward - on board a Lockheed P-38 airplane, he must fight his way through six varied stages, take down enemy installations, battleships and other huge rockets on their narrow launching pads. Unlike its predecessors in the series, 1941 Counter Attack traded the trademark and arguably monotonous level design for a more structured and diverse formula. Stages vary from an enemy infested canyon to city landscapes and fortified strongholds. Several powerups can be collected along the way, such as tiny wingmen widening the plane's fire power, or destructive special weapons such as laser beams and side rockets. The main weapon can also be charged up by holding the fire button to discharge a powerful attack. Finally, the plane comes with a small life bar and can be hit three time before being blasted into oblivion - this bar however increases as the game progresses, and is used to release devastating special attacks as well. 1941 Counter Attack also features a two simultaneous player mode.",
+                "genre": "Shooter",
+                "releasedate": "August 23, 1991",
+                "year": "1991",
+                "boxart1": "PHlKNEB.png",
+                "boxart2": "Vc3W3eS.jpg",
+                "boxart3": "lTaYWtr.jpg",
+                "snapshot1": "qpnpn5C.png",
+                "snapshot2": "BC65jfd.png",
+                "clearlogo1": "qGHQI3f.png",
+                "videoid": "8QiMtDGXV0E"
+            },
+            {
+                "name": "Aldynes - The Misson Code for Rage Crisis (Japan)",
+                "description": "Aldynes - The Misson Code for Rage Crisis (Japan)",
+                "rom": {
+                    "name": "No-Intro-Collection_2016-09-06/Nec-PcEngineSupergrafx.zip/Aldynes%20-%20The%20Misson%20Code%20for%20Rage%20Crisis%20%28Japan%29.zip",
+                    "size": "512240"
+                },
+                "title_clean": "Aldynes - The Misson Code for Rage Crisis",
+                "plot": "The year is 2020, and global depression has descended upon the societies of the Earth. When humans least expect it, aliens from a mechanical planetoid attack seemingly without any reason. The League of Nations collaborates with NASA to produce a powerful space fighter under project name Aldynes. When a pilot known as Fox-A is killed, his girlfriend Hiroko heads to the air base where works on Project Aldynes took place. As the aliens launch their attack, Hiroko hijacks one of the fighters and enters the battle. Aldynes is a horizontally-scrolling sci-fi shoot-em-up. Player-controlled spaceship can acquire power-ups that either change its default vulcan gun to lasers that shoot either straight ahead or in different directions, or enhance the shot of an already equipped weapon. A special power-up adds a small ship that fights alongside the player-controlled one; collecting more power-ups of the same kind adds more ships. These ships can be ordered to stay behind and repeat the shooting patterns of the player-controlled craft, or shoot at enemies following their own AI. The player-controlled fighter does not have hit points and loses a life every time it is hit. There are seven stages altogether, each ending with a massive boss battle.",
+                "genre": "Shooter",
+                "releasedate": "February 22, 1991",
+                "year": "1991",
+                "boxart1": "2jsMfnj.png",
+                "boxart2": "ppcBcCW.jpg",
+                "boxart3": "hEWcyxy.jpg",
+                "snapshot1": "WMajSRf.png",
+                "snapshot2": "J5g81sG.png",
+                "clearlogo1": "gVEls2K.png",
+                "videoid": "vvBctR39Rd0"
+            },
+            {
+                "name": "Battle Ace (Japan)",
+                "description": "Battle Ace (Japan)",
+                "rom": {
+                    "name": "No-Intro-Collection_2016-09-06/Nec-PcEngineSupergrafx.zip/Battle%20Ace%20%28Japan%29.zip",
+                    "size": "300371"
+                },
+                "title_clean": "Battle Ace",
+                "plot": "Battle Ace is an action-oriented flight game in a first-person perspective. The player mans a space ship, including a radar which shows enemies, and the goal is to reach the end of each level where an end boss waits. As usually, the main occupation is to blast a lot of aliens which approach the player. The available weapons are bombs and a machine gun, both unlimited. Getting hit is a bad idea because it results in death. The player has three lives which can be raised by scoring 20.000 points.",
+                "genre": "Shooter",
+                "releasedate": "November 30, 1989",
+                "year": "1989",
+                "boxart1": "YyEI0Xi.png",
+                "boxart2": "NWSfgEs.jpg",
+                "boxart3": "mwoEJMG.jpg",
+                "snapshot1": "efvfHpb.png",
+                "clearlogo1": "FhBzkfD.png",
+                "videoid": "MbVSsdNsI8M"
+            },
+            {
+                "name": "Dai-Makaimura (Japan)",
+                "description": "Dai-Makaimura (Japan)",
+                "rom": {
+                    "name": "No-Intro-Collection_2016-09-06/Nec-PcEngineSupergrafx.zip/Dai-Makaimura%20%28Japan%29.zip",
+                    "size": "679793"
+                },
+                "title_clean": "Dai-Makaimura",
+                "plot": "Daimakaimura is a platform game by Capcom and is the SuperGrafx port of the classic arcade game known outside of Japan as Ghouls'n Ghosts. The brave Arthur, infamous for wearing red hearted boxers under his piece of armor, is back. His beloved princess Prin-Prin has been captured by the great demon king Loki and he has now, once again, the daunting task of rescuing her. His journey gets him through six long stages from a creepy cemetery infested with Grim Reapers and Vultures, to a abandoned windmills full of deadly stone turtles. Arthur starts the game equipped with a short joust spear that he can throw at his enemies. Treasure chests appear from time to time (usually triggered by jumping over specific spots of the scenery) and Arthur can crack them open to reveal new weapons, brand new piece of armors or, if already equipped with one, the almighty Golden Armor. But treasure chests can also reveal mean sorcerers who won't hesitate to turn our hero into an elderly man with a walking stick, or a cute but particularly vulnerable duck. Finally, the Golden Armor can be charged up and unleash powerful attacks from the equipped weapon. For instance, the spear can trigger a lighting spell and daggers a mirror-image of Arthur. The game is vast and mean guardians keep the gates leading to Loki's lair.",
+                "genre": "Action",
+                "releasedate": "July 27, 1990",
+                "year": "1990",
+                "boxart1": "jijwa72.png",
+                "boxart2": "CIkCVIR.jpg",
+                "boxart3": "m0Eze7N.jpg",
+                "snapshot1": "6f0eeCL.png",
+                "snapshot2": "ctZD6Q5.png",
+                "fanart1": "VV9vfpr.jpg",
+                "fanart2": "2lv1tjd.jpg",
+                "clearlogo1": "qsDYQbb.png",
+                "videoid": "rVzRe3LQnUc"
+            },
+            {
+                "name": "Madou King Granzort (Japan)",
+                "description": "Madou King Granzort (Japan)",
+                "rom": {
+                    "name": "No-Intro-Collection_2016-09-06/Nec-PcEngineSupergrafx.zip/Madou%20King%20Granzort%20%28Japan%29.zip",
+                    "size": "355105"
+                },
+                "title_clean": "Madou King Granzort",
+                "plot": "Madou King Granzort is a side-scrolling action/platform game for the SuperGrafx system and based on a Japanese anime series originally aired in 1989. An atmosphere started to rise on the Moon after a powerful earthquake. Seeing that it could now support life, humans decide to colonize the newly terraformed satellite and settle there. But soon they realize they are not alone and find themselves in the middle of a raging war between two alien species. The player takes control of an armored robot able to transform into three different warriors. Each one of them comes with its own style of play and abilities - the Red Warrior uses a powerful laser sword and can trigger earthquake attacks, the Green Warrior uses a laser bow and can fly, and finally the Blue Warrior uses a spear and can raise an impenetrable power shield. Special items are dotted around each level - their range from extra lives to the one-hit silver shield (S) and the temporary invincibility gold shield (G). Along with the special items found on the playfield, little rabbits also sometimes appear and drop power-ups when killed. These upgrade the player's main weapons up to three times, increasing their overall range or shooting speed. Granzort features seven large maze-like stages and each one of them lead to a deep pit where the level's boss hides.",
+                "genre": "Action",
+                "releasedate": "April 6, 1990",
+                "year": "1990",
+                "boxart1": "3oyoXxp.png",
+                "boxart2": "RDTckef.jpg",
+                "boxart3": "10NcjNT.jpg",
+                "snapshot1": "KKRNIiU.png",
+                "snapshot2": "NB7tppq.png",
+                "clearlogo1": "ZMzLCmV.png",
+                "videoid": "-N6YxGVsams"
+            }
+        ]
+    }
+}
