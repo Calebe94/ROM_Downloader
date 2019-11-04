@@ -1,0 +1,240 @@
+#!/usr/bin/python3
+import json
+import os
+import argparse
+
+platforms =  {
+    "32x": {
+        "full": "32x.json"
+    },
+    "3do": {
+        "full": "3do.json"
+    },
+    "amiga":{
+        "best": "amiga_best.json",
+        "full": "amiga.json"
+    },
+    "atari_2600": {
+        "best": "atari_2600_best.json",
+        "full": "atari_2600.json"
+    },
+    "atari_5200": {
+        "full": "atari_5200.json"
+    },
+    "atari_7800": {
+        "full": "atari_7200.json"
+    },
+    "atari_800": {
+        "full": "atari_800.json"
+    },
+    "atari_jaguar": {
+        "full": "atari_jaguar.json"
+    },
+    "atari_lynx": {
+        "full": "atari_jaguar.json"
+    },
+    "c64": {
+        "full": "c64.json"
+    },
+    "cdi": {
+        "full": "cdi.json"
+    },
+    "cavestory": {
+        "full": "cavestory.json"
+    },
+    "colecovision": {
+        "full": "colecovision.json"
+    },
+    "doom": {
+        "full": "doom.json"
+    },
+    "dreamcast": {
+        "full": "dreamcast.json"
+    },
+    "gba": {
+        "best": "gba_best.json",
+        "full": "gba.json",
+        "hacks": "gba_hacks.json"
+    },
+    "gb": {
+        "best": "gb_classic_best.json",
+        "full": "gb_classic.json"
+    },
+    "game_gear": {
+        "best": "game_gear_best.json",
+        "full": "game_gear.json",
+    },
+    "genesis": {
+        "full": "genesis.json",
+        "best": "genesis_best.json"
+    },
+    "intellivision": {
+        "full": "intellivision.json",
+    },
+    "mame": {
+        "best": "mame_best.json",
+        "full": "mame.json",
+    },
+    "msdos": {
+        "full": "msdos.json",
+    },
+    "master_system": {
+        "best": "master_system_best.json",
+        "full": "master_system.json",
+    },
+    "n64": {
+        "best": "n64_best.json",
+        "full": "n64.json",
+    },
+    "nes": {
+        "best": "nes_best.json",
+        "full": "nes.json",
+        "hacks": "nes_hacks.json"
+    },
+    "neogeo": {
+        "full": "neogeo.json",
+    },
+    "ps1": {
+        "best": "ps1_best.json",
+        "full": "ps1.json",
+    },
+    "psp": {
+        "full": "psp.json",
+    },
+    "reminiscence": {
+        "full": "reminiscence.json",
+    },
+    "snes": {
+        "best": "snes_best.json",
+        "full": "snes.json",
+    },
+    "quake": {
+        "full": "quake.json",
+    },
+    "saturn": {
+        "full": "saturn.json",
+    }
+}
+
+def open_games_file(platform, game_list):
+    root_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(root_dir, 'data')
+    data = str()
+
+    try:
+        game_file = os.path.join(data_dir, platforms[platform][game_list])
+        with open(game_file) as f:
+            data = json.load(f)
+    except Exception as identifier:
+        print(identifier)
+    return data
+
+def get_game_url(data, game):
+    game_url = str()
+    try:
+        game_url = 'https://archive.org/download/'+data[-game]['rom']['name']
+    except Exception as identifier:
+        print(identifier)
+    return game_url
+
+def get_game_cover(data, game):
+    game_cover = str()
+    try:
+        game_cover = 'https://i.imgur.com/'+data[-game]['boxart1']
+    except Exception as identifier:
+        print(identifier)
+    return game_cover
+
+def get_game_video(data, game):
+    game_video = str()
+    try:
+        game_video = 'https://www.youtube.com/watch?v='+data[-game]['videoid']
+    except Exception as identifier:
+        print(identifier)
+    return game_video
+
+def get_game_plot(data, game):
+    game_plot = str()
+    try:
+        game_plot = data[-game]['plot']
+    except Exception as identifier:
+        print(identifier)
+    return game_plot
+
+def get_game_json(data, game):
+    game_json = dict()
+    try:
+        game_json = data[-game]
+    except Exception as identifier:
+        print(identifier)
+    return game_json
+
+def get_platforms():
+    for platform in platforms.keys():
+        print(platform)
+
+def get_platform_available_file(platform):
+    for available_file in platforms[platform].keys():
+        print(available_file)
+
+def print_games_best(games_list):
+    game_id = int(0)
+    for game in reversed(games_list):
+        game_id+=1
+        print("{}. {}".format(game_id, game['name']))
+
+def print_games_full(games_list):
+    game_id = int(0)
+    for game in games_list:
+        game_id+=1
+        print("{}. {}".format(game_id, game['name']))
+
+def cli_arguments():
+    parser = argparse.ArgumentParser(description='Process ROMs files.')
+    parser.add_argument('-g', '--get', required=False, help='Get some information about the ROM.')
+    parser.add_argument('-p', '--platform', required=False, help='Inform the platform console.')
+    parser.add_argument('-id', '--id', required=False, help='ID of the ROM to get info.')
+    parser.add_argument('-l', '--list', required=False, help='List games.')
+    parser.add_argument('-f', '--file', required=False, help='File.')
+
+    return parser
+
+def main():
+    parser = cli_arguments()
+    args = parser.parse_args()
+
+    if args.get and args.platform and args.file and args.id:
+        game_id = int(args.id)
+        data = open_games_file(args.platform, args.file)
+        games_list = list(data['datafile']['game'])
+
+        if args.get == 'rom':
+            print(get_game_url(games_list, game_id))
+        elif args.get == 'cover':
+            print(get_game_cover(games_list, game_id))
+        elif args.get == 'plot':
+            print(get_game_plot(games_list, game_id))
+        elif args.get == 'info':
+            print(get_game_json(games_list, game_id))
+        elif args.get == 'video':
+            print(get_game_video(games_list, game_id))
+
+    elif args.list == 'files' and args.platform:
+        get_platform_available_file(args.platform)
+    elif args.list == 'games' and args.platform and args.file:
+        data = open_games_file(args.platform, args.file)
+        games_list = list(data['datafile']['game'])
+        
+        if args.file == 'best':
+            print_games_best(games_list)
+        else:
+            print_games_full(games_list)
+
+    elif args.list == 'platforms':
+        get_platforms()
+    else:
+        parser.print_help()
+        parser.exit()
+
+if __name__ == "__main__":
+    main()
